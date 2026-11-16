@@ -58,7 +58,6 @@ body {
 
 h1,
 h2,
-h3,
 .logo {
 	color: var(--text-color-contrast);
 	font-family: var(--title-font-family);
@@ -72,6 +71,10 @@ h1 {
 
 h2 {
 	font-size: 1.3rem;
+}
+
+h3 {
+	color: var(--text-color-contrast);
 }
 
 p {
@@ -104,16 +107,19 @@ nav ul li a {
 }
 
 main {
-	width: 100%;
+	width: 90%;
 	max-width: 1400px;
 	margin: auto;
 }
 
 .btn {
+	display: flex;
+	align-items: center;
 	padding: 12px 24px;
 	background-color: var(--olive-4);
 	color: var(--olive-12);
 	text-decoration: none;
+	min-height: 24px;
 }
 
 .btn:hover {
