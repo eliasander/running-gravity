@@ -5,11 +5,16 @@
 
 .product-section {
 	display: flex;
+	flex-direction: column;
 	gap: 16px;
 }
 .page-image * {
 	position: absolute;
 	width: 100%;
+}
+
+.spec-tables {
+	display: flex;
 }
 
 p {
@@ -35,4 +40,12 @@ table th {
 
 table td {
 	width: 300px;
+}
+@media screen and (min-width: 1024px) {
+	.product-section {
+		flex-direction: row;
+	}
+	.spec-tables {
+		flex-direction: column;
+	}
 }
