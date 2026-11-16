@@ -103,16 +103,19 @@ nav ul li a {
 }
 
 main {
-	width: 100%;
+	width: 90%;
 	max-width: 1400px;
 	margin: auto;
 }
 
 .btn {
+	display: flex;
+	align-items: center;
 	padding: 12px 24px;
 	background-color: var(--olive-4);
 	color: var(--olive-12);
 	text-decoration: none;
+	min-height: 24px;
 }
 
 .btn:hover {
