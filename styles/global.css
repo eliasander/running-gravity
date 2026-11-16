@@ -58,7 +58,6 @@ body {
 
 h1,
 h2,
-h3,
 .logo {
 	color: var(--text-color-contrast);
 	font-family: var(--title-font-family);
@@ -72,6 +71,10 @@ h1 {
 
 h2 {
 	font-size: 1.3rem;
+}
+
+h3 {
+	color: var(--text-color-contrast);
 }
 
 p {
