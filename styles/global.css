@@ -90,13 +90,13 @@ header {
 }
 
 .logo {
-	text-align: center;
-	text-decoration: underline solid var(--text-color-contrast) 7px;
-	font-size: 2rem;
+	margin: 0;
+	padding: 0;
 }
 
 nav ul {
 	display: flex;
+	align-items: center;
 	gap: 32px;
 	list-style: none;
 	padding: 0;
