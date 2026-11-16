@@ -87,6 +87,7 @@ header {
 }
 
 .logo {
+	text-align: center;
 	text-decoration: underline solid var(--text-color-contrast) 7px;
 	font-size: 2rem;
 }
