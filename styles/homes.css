@@ -1,23 +1,27 @@
 .homes {
 	display: flex;
 	flex-direction: column;
-	gap: 32px;
+	gap: 48px;
 }
 
 .home {
 	display: flex;
+	flex-direction: column;
 	gap: 24px;
 }
 
 .home img {
 	height: 320px;
-	aspect-ratio: 5 / 3;
+	max-width: 100%;
+	aspect-ratio: 5 / 4;
+	object-fit: cover;
 }
 
 .home .details {
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
+	max-width: 50%;
 	max-width: 70ch;
 	text-wrap-style: balance;
 }
@@ -25,4 +29,10 @@
 .home .details .buttons {
 	display: flex;
 	gap: 16px;
+}
+
+@media screen and (min-width: 768px) {
+	.home {
+		flex-direction: row;
+	}
 }
