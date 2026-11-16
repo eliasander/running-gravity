@@ -112,7 +112,6 @@ main {
 	background-color: var(--olive-4);
 	color: var(--olive-12);
 	text-decoration: none;
-	border-radius: 8px;
 }
 
 .btn:hover {
