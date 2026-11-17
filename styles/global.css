@@ -85,8 +85,10 @@ h3 {
 	color: var(--text-color-contrast);
 }
 
-p {
+p,
+li {
 	line-height: 1.6;
+	margin-block: 16px;
 }
 
 a {
