@@ -89,6 +89,18 @@ p {
 	line-height: 1.6;
 }
 
+a {
+	color: var(--text-color-contrast);
+}
+
+a:hover {
+	color: var(--text-color);
+}
+
+a:focus {
+	outline: 1px dotted var(--text-color-contrast);
+}
+
 header {
 	display: flex;
 	flex-direction: column;
