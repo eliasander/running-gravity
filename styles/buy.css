@@ -1,12 +1,12 @@
 .product-name {
-	font-size: 5rem;
+	font-size: 2.7rem;
 	text-align: center;
 }
 
 .product-section {
 	display: flex;
 	flex-direction: column;
-	gap: 16px;
+	gap: 32px;
 }
 .page-image * {
 	position: absolute;
@@ -15,6 +15,7 @@
 
 .spec-tables {
 	display: flex;
+	flex-direction: column;
 }
 
 p {
@@ -34,6 +35,11 @@ img {
 .specifications {
 	flex: 50%;
 }
+
+h2 {
+	font-size: 1rem;
+}
+
 table th {
 	width: 120px;
 }
@@ -41,11 +47,29 @@ table th {
 table td {
 	width: 300px;
 }
+@media screen and (min-width: 512px) {
+	.spec-tables {
+		flex-direction: row;
+	}
+}
+
 @media screen and (min-width: 1024px) {
 	.product-section {
 		flex-direction: row;
 	}
 	.spec-tables {
 		flex-direction: column;
+	}
+}
+
+@media screen and (min-width: 660px) {
+	.product-name {
+		font-size: 5rem;
+	}
+}
+
+@media screen and (min-width: 432px) {
+	h2 {
+		font-size: 1.3rem;
 	}
 }
