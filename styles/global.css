@@ -17,7 +17,7 @@
 	--text-color-contrast: var(--olive-12);
 
 	--title-font-family: "BBH Bartle", sans-serif, system-ui;
-	--default-font-family: "Zen Dots", sans-serif, system-ui;
+	--nav-font-family: "Zen Dots", sans-serif, system-ui;
 }
 
 @media (color-gamut: p3) {
@@ -127,7 +127,7 @@ nav ul {
 
 nav ul li a {
 	color: var(--text-color-contrast);
-	font-family: var(--default-font-family);
+	font-family: var(--nav-font-family);
 	text-decoration: underline;
 }
 
