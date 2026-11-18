@@ -17,7 +17,7 @@
 	--text-color-contrast: var(--olive-12);
 
 	--title-font-family: "BBH Bartle", sans-serif, system-ui;
-	--default-font-family: "Zen Dots", sans-serif, system-ui;
+	--nav-font-family: "Zen Dots", sans-serif, system-ui;
 }
 
 @media (color-gamut: p3) {
@@ -127,14 +127,51 @@ nav ul {
 
 nav ul li a {
 	color: var(--text-color-contrast);
-	font-family: var(--default-font-family);
+	font-family: var(--nav-font-family);
 	text-decoration: underline;
 }
 
-main {
+main,
+footer {
 	width: 90%;
 	max-width: 1400px;
 	margin: auto;
+}
+
+footer {
+	display: flex;
+	flex-direction: column;
+	gap: 8px;
+	margin-top: 48px;
+	padding-block: 32px;
+	border-top: 2px solid var(--olive-5);
+	font-family: var(--nav-font-family);
+}
+
+footer .slogan {
+	color: var(--text-color-contrast);
+	font-family: var(--title-font-family);
+}
+
+footer .links {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+}
+
+footer .links a {
+	display: flex;
+	align-items: center;
+	gap: 4px;
+	padding: 12px;
+	width: fit-content;
+}
+
+@media screen and (min-width: 420px) {
+	footer .links {
+		flex-direction: row;
+		gap: 16px;
+	}
 }
 
 .btn {

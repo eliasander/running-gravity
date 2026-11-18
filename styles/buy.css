@@ -36,12 +36,18 @@ img {
 	flex: 50%;
 }
 
+.home-address {
+	margin: 10px;
+	margin-bottom: 0px;
+}
+
 h2 {
 	font-size: 1rem;
 }
 
 table th {
 	width: 120px;
+	padding: 3px;
 }
 
 table td {
