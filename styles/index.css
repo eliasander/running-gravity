@@ -3,8 +3,6 @@ body {
 	margin: 0;
 }
 main {
-	display: flex;
-	flex-direction: column;
 	gap: 24px;
 	margin: auto;
 	justify-content: center;
@@ -12,10 +10,11 @@ main {
 }
 
 h1 {
-	text-align: center;
 	font-size: 4rem;
+	text-align: center;
 }
 h2 {
+	padding: 20px;
 	text-align: center;
 }
 
@@ -44,6 +43,15 @@ h2 {
 #discover {
 	margin: 12px 20%;
 }
+
+.hero {
+	border-bottom: 2px solid var(--olive-5);
+}
+
+.information div {
+	columns: 3;
+}
+
 @media screen and (min-width: 1400px) {
 	main {
 		flex-direction: row;
