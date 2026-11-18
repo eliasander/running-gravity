@@ -145,7 +145,7 @@ footer {
 	margin-top: 48px;
 	padding-block: 32px;
 	border-top: 2px solid var(--olive-5);
-	font-family: var(--default-font-family);
+	font-family: var(--nav-font-family);
 }
 
 footer .slogan {
