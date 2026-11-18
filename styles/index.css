@@ -1,3 +1,65 @@
 body {
 	height: 100vh;
+	margin: 0;
+}
+main {
+	gap: 24px;
+	margin: auto;
+	justify-content: center;
+	align-content: center;
+}
+
+h1 {
+	font-size: 4rem;
+	text-align: center;
+}
+h2 {
+	padding: 20px;
+	text-align: center;
+}
+
+.card-holder {
+	margin-top: 24px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	gap: 24px;
+}
+
+.card {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	background-color: var(--olive-3);
+	padding: 10px;
+}
+
+.btn {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#discover {
+	margin: 12px 20%;
+}
+
+.hero {
+	border-bottom: 2px solid var(--olive-5);
+}
+
+.information div {
+	columns: 3;
+}
+
+@media screen and (min-width: 1400px) {
+	main {
+		flex-direction: row;
+	}
+	.card-holder {
+		flex-direction: row;
+	}
+	.card {
+		width: 17vw;
+	}
 }
