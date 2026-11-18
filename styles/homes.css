@@ -21,7 +21,6 @@
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
-	max-width: 50%;
 	max-width: 70ch;
 	text-wrap-style: balance;
 }
@@ -29,6 +28,10 @@
 .home .details .buttons {
 	display: flex;
 	gap: 16px;
+}
+
+.home-address {
+	margin: 0;
 }
 
 @media screen and (min-width: 768px) {
