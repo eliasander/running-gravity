@@ -1,6 +1,5 @@
 body {
 	height: 100vh;
-	margin: 0;
 }
 main {
 	gap: 24px;
@@ -32,6 +31,11 @@ h2 {
 	justify-content: space-between;
 	background-color: var(--olive-3);
 	padding: 10px;
+}
+
+.card img {
+	aspect-ratio: 5 / 3;
+	object-fit: cover;
 }
 
 .btn {
