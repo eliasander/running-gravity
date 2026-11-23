@@ -20,6 +20,23 @@
 	--nav-font-family: "Zen Dots", sans-serif, system-ui;
 }
 
+@media (prefers-color-scheme: light) {
+	:root {
+		--olive-1: #fcfdfc;
+		--olive-2: #f8faf8;
+		--olive-3: #eff1ef;
+		--olive-4: #e7e9e7;
+		--olive-5: #dfe2df;
+		--olive-6: #d7dad7;
+		--olive-7: #cccfcc;
+		--olive-8: #b9bcb8;
+		--olive-9: #898e87;
+		--olive-10: #7f847d;
+		--olive-11: #60655f;
+		--olive-12: #1d211c;
+	}
+}
+
 @media (color-gamut: p3) {
 	:root {
 		--olive-1: color(display-p3 0.067 0.07 0.063);
@@ -178,21 +195,21 @@ footer .links a {
 	display: flex;
 	align-items: center;
 	padding: 12px 24px;
-	background-color: var(--olive-4);
+	background-color: var(--olive-6);
 	color: var(--olive-12);
 	text-decoration: none;
 	min-height: 24px;
 }
 
 .btn:hover {
-	background-color: var(--olive-3);
+	background-color: var(--olive-5);
 }
 
 .btn-primary {
 	font-weight: 700;
-	background-color: var(--olive-10);
+	background-color: var(--olive-8);
 }
 
 .btn-primary:hover {
-	background-color: var(--olive-9);
+	background-color: var(--olive-7);
 }
