@@ -33,6 +33,11 @@ h2 {
 	padding: 10px;
 }
 
+.card img {
+	aspect-ratio: 5 / 3;
+	object-fit: cover;
+}
+
 .btn {
 	display: flex;
 	justify-content: center;
