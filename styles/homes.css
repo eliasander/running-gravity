@@ -13,7 +13,7 @@
 .home img {
 	height: 320px;
 	max-width: 100%;
-	aspect-ratio: 5 / 4;
+	aspect-ratio: 5 / 3;
 	object-fit: cover;
 }
 
